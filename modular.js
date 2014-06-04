@@ -1,4 +1,4 @@
-var Module=(function($, m, udefined){
+var Module=(function($, window, my, udefined){
       /*################################################   
                           PRIVATE 
       #################################################*/
@@ -8,8 +8,8 @@ var Module=(function($, m, udefined){
       /*################################################   
                           PUBLIC 
       #################################################*/      
-      m.public=function(){
+      my.public=function(){
         //do something
       };
-      return m;
-})(jQuery,window.Module = window.Module || {});
+      return my;
+})(jQuery, window, window.Module = window.Module || {});
